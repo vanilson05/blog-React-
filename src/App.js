@@ -1,12 +1,14 @@
+
 import Header from './components/Header';
-import Post from './components/Posts';
+//import Article from './components/Article';
+import Main from './pages/Main';
+import Routes from './routes';
 
 function App() {
   return (
     <>
       <Header />
-      <h1>meu blog</h1>
-      <Post />
+      <Routes />
     </>
   );
 }

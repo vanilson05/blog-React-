@@ -6,16 +6,17 @@ header{
     padding: 8px 24px;
 }
 
-a {
+a{
     text-decoration: none;
     color: $white-dark;
 }
 
-.flex {
+
+.flex{
     display: flex;
 }
 
-.flex-space-between {
+.flex-space-between{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,9 +24,9 @@ a {
 
 .container{
     max-width: 1200px;
-    
-    margin: 0 auto ;
-    padding: 9px 24px
+
+    margin: 0 auto;
+    padding: 8px 24px;
 }
 
 .border{
@@ -49,7 +50,7 @@ a {
     transition: .5s ease;
 
     &:hover{
-        opacity: .7; 
+        opacity: .7;
     }
 }
 
@@ -63,7 +64,7 @@ a {
     border-radius: 4px;
 
     color: $white-light;
-    padding: 8px
+    padding: 8px;
 }
 
 .img-profile{
@@ -75,4 +76,5 @@ a {
 
 .container-posts{
     display: flex;
+
 }
